@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="net.incredibles.brtaprovider">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <provider android:name=".BrtaSignsProvider"
+                  android:authorities="net.incredibles.brtaprovider"
+                  android:readPermission="net.incredibles.brtaprovider.READ_BRTA_SIGNS"/>
+        <activity android:name=".activity.DummyDefaultActivityForTestingSingImageInsertionInDb">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

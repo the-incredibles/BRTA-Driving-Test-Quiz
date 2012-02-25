@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="test_provider">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../BRTA Signs Provider/libs/test" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../BRTA Signs Provider/libs/test" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../BRTA Signs Provider/libs/test" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../BRTA Signs Provider/libs/test" recursive="false" type="SOURCES" />
+  </library>
+</component>

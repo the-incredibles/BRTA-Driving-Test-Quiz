@@ -1,0 +1,194 @@
+#
+# generated on 2012/02/25 11:12:28
+#
+# --table-start--
+dataClass=net.incredibles.brtaquiz.domain.SignSet
+tableName=signset
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.incredibles.brtaquiz.domain.Sign
+tableName=sign
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=signSet
+columnName=sign_set_id
+canBeNull=false
+foreign=true
+indexName=sign_sign_set_id_idx
+# --field-end--
+# --field-start--
+fieldName=description
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=image
+dataPersister=BYTE_ARRAY
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.incredibles.brtaquiz.domain.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=regNo
+columnName=reg_no
+canBeNull=false
+indexName=index_regNo_pinNo
+# --field-end--
+# --field-start--
+fieldName=pinNo
+columnName=pin_no
+canBeNull=false
+indexName=index_regNo_pinNo
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.incredibles.brtaquiz.domain.Question
+tableName=question
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=user
+canBeNull=false
+foreign=true
+indexName=question_user_idx
+# --field-end--
+# --field-start--
+fieldName=sign
+canBeNull=false
+foreign=true
+indexName=question_sign_idx
+# --field-end--
+# --field-start--
+fieldName=signSet
+columnName=sign_set_id
+canBeNull=false
+foreign=true
+indexName=question_sign_set_id_idx
+# --field-end--
+# --field-start--
+fieldName=markedSign
+columnName=marked_sign_id
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.incredibles.brtaquiz.domain.Answer
+tableName=answer
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=question
+canBeNull=false
+foreign=true
+indexName=answer_question_idx
+# --field-end--
+# --field-start--
+fieldName=answer
+columnName=answer_sign_id
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=correct
+# --field-end--
+# --field-start--
+fieldName=marked
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.incredibles.brtaquiz.domain.Result
+tableName=result
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=user
+canBeNull=false
+foreign=true
+indexName=result_user_idx
+# --field-end--
+# --field-start--
+fieldName=signSet
+columnName=sign_set_id
+canBeNull=false
+foreign=true
+# --field-end--
+# --field-start--
+fieldName=questions
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=answered
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=correct
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=net.incredibles.brtaquiz.domain.QuizTime
+tableName=quiztime
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=user
+canBeNull=false
+foreign=true
+indexName=quiztime_user_idx
+# --field-end--
+# --field-start--
+fieldName=totalTime
+columnName=total_time
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=timeTaken
+columnName=time_taken
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

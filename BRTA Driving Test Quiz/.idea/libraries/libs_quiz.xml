@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="libs_quiz">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs" />
+      <root url="file://$PROJECT_DIR$/libs" />
+      <root url="file://$PROJECT_DIR$/libs/ormlite-4.33" />
+      <root url="file://$PROJECT_DIR$/libs/RoboGuice-1.1.2" />
+      <root url="file://$PROJECT_DIR$/libs" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/libs/ormlite-4.33/ormlite-android-4.33-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/ormlite-4.33/ormlite-core-4.33-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/RoboGuice-1.1.2/roboguice-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/libs/ormlite-4.33" />
+      <root url="file://$PROJECT_DIR$/libs/RoboGuice-1.1.2" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/ormlite-4.33" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/RoboGuice-1.1.2" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/ormlite-4.33" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/RoboGuice-1.1.2" recursive="false" type="SOURCES" />
+  </library>
+</component>

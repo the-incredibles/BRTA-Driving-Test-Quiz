@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">BRTA Driving Test Quiz</string>
+
+    <!-- Instructions -->
+    <string name="welcome">Welcome To\nBRTA Driving Test Quiz</string>
+    <string name="instruction_msg">&#8226; There will be %1$s questions and a total time of %2$s.&lt;br/>&lt;br/>&#8226; For each correct answer you will get 2 marks.&lt;br/>&lt;br/>&#8226;&lt;font color=&quot;red&quot;&gt; For each incorrect answer you will be penalized 1 mark.&lt;/font&gt;&lt;br/>&lt;br/>&#8226; There will be no marks for unanswered question.&lt;br/>&lt;br/>&#8226; Once started, you must complete the test.&lt;br/>&lt;br/>&#8226; If you get out of the program after starting the test, then you can get back in by tapping on the program notification icon from the status bar.&lt;br/>&lt;br/>&lt;br/>Best of luck!</string>
+    <string name="start_test">Start Test</string>
+    <string name="hours">hours</string>
+    <string name="minutes">minutes</string>
+    <string name="seconds">seconds</string>
+
+    <!-- Login -->
+    <string name="reg_no">Registration No.</string>
+    <string name="pin_no">Pin No.</string>
+    <string name="login">Login</string>
+    <string name="authenticating">Authenticating...</string>
+    <string name="preparing_quiz_questions">Preparing Quiz Questions...</string>
+
+    <!-- Question Set List -->
+    <string name="question_sets">Question sets</string>
+    <string name="questions">Questions</string>
+    <string name="answered">Answered</string>
+    <string name="time_remaining_with_colon">Time Remaining:</string>
+
+    <!-- Question -->
+    <string name="questions">Questions</string>
+    <string name="what_is_the_following_sign">What is the following Sign?</string>
+    <string name="which_of_the_following_is">Which of the following is %1$s(s)?</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish Test</string>
+    <string name="choose_next_set">Choose Next Set</string>
+
+    <!-- Result -->
+    <string name="preparing_result">Preparing Result...</string>
+    <string name="result">Result</string>
+    <string name="total_questions">Total Questions</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="unanswered">Unanswered</string>
+    <string name="marks">Marks Obtained</string>
+    <string name="time_taken">Time Taken</string>
+    <string name="total_time">Total Time</string>
+    <string name="detailed_result">Detailed Result</string>
+    <string name="quit">Quit</string>
+    <string name="question_set">Question Set</string>
+
+    <!-- Quiz Running Notification -->
+    <string name="quiz_running_notification_ticker_text">BRTA Driving Test Quiz Running</string>
+    <string name="quiz_running_notification_title">BRTA Driving Test Quiz</string>
+    <string name="quiz_running_notification_text">Time Remaining:</string>
+
+    <!-- Quiz Finished Notification -->
+    <string name="quiz_finished_notification_ticker_text">BRTA Driving Test Quiz Finished</string>
+    <string name="quiz_finished_notification_title">BRTA Driving Test Quiz</string>
+    <string name="quiz_finished_notification_text">Quiz Finished. Tap here to see result.</string>
+
+    <!-- Review Or Submit Test Confirmation Dialog -->
+    <string name="review_or_submit_dialog_title">@string/app_name</string>
+    <string name="review_or_submit_dialog_msg">Congratulations! You\'ve answered all the questions.\nHowever, you still have some time left. Would you like to review your answers?</string>
+    <string name="review_or_submit_dialog_review_btn">Review Answers</string>
+    <string name="review_or_submit_dialog_finish_btn">Finish Test</string>
+
+    <!-- Time Up Dialog -->
+    <string name="timeup_dialog_title">@string/app_name</string>
+    <string name="timeup_dialog_msg">Time\'s Up!!</string>
+    <string name="timeup_dialog_ok_btn">OK</string>
+
+    <!-- Finish Test with Incomplete Answers Confirmation Dialog -->
+    <string name="finish_test_with_incomplete_answers_dialog_title">@string/app_name</string>
+    <string name="finish_test_with_incomplete_answers_dialog_msg">You still have some questions unanswered.\nAre you sure you want to finish the test?</string>
+    <string name="finish_test_with_incomplete_answers_resume_btn">Resume Test</string>
+    <string name="finish_test_with_incomplete_answers_finish_btn">@string/review_or_submit_dialog_finish_btn</string>
+
+    <!-- Jump to Question Dialog -->
+    <string name="jump_to_question_dialog_title">Jump to Question in Current Set</string>
+
+    <!-- Options Menu -->
+    <string name="menu_jump_to_question">Jump to Question</string>
+    <string name="menu_question_sets">Question Sets</string>
+    <string name="menu_finish_test">@string/review_or_submit_dialog_finish_btn</string>
+
+</resources>

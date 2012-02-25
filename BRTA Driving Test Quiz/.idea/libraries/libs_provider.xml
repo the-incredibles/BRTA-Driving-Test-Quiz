@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs_provider">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../BRTA Signs Provider/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../BRTA Signs Provider/libs" recursive="false" />
+  </library>
+</component>
